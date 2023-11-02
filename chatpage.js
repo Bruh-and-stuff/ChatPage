@@ -62,7 +62,10 @@ const firebaseConfig = {
       likes:updatedLikes
     })
   }
-
+function back(){
+    localStorage.removeItem("roomname")
+windoe.location="kwitter_room.html"
+}
   function logout(){
     localStorage.removeItem("rooomname")
     localStorage.removeItem("usernameI")
